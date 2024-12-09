@@ -21,8 +21,8 @@ trait GuardHelperTrait
     /** @var AuthenticatorInterface|AuthorizableInterface|ResetPasswordInterface|VerifyEmailInterface|HasAccessTokensInterface */
     protected $user;
 
-    /** @var bool */
-    protected $loggedOut;
+    /** @var boolean */
+    protected $loggedOut = false;
 
     /**
      * {@inheritdoc}

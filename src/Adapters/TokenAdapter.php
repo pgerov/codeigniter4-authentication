@@ -21,9 +21,6 @@ class TokenAdapter implements AuthenticationInterface
 {
     use GuardHelperTrait;
 
-    /** @var boolean */
-    protected $loggedOut = false;
-
     /** @var RequestInterface */
     protected $request;
 

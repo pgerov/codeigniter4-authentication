@@ -30,9 +30,6 @@ class SessionAdapter implements AuthenticationBasicInterface, AuthenticationInte
     protected $lastAttempted;
 
     /** @var boolean */
-    protected $loggedOut = false;
-
-    /** @var boolean */
     protected $viaRemember = false;
 
     /** @var boolean */
